@@ -1,0 +1,24 @@
+{
+  "name": "auditboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "BUNDLE_ANALYZE=both next build",
+    "lint": "next lint",
+    "prettier-fix": "prettier --write .",
+    "find:unused": "npx next-unused",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
