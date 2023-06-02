@@ -38,8 +38,8 @@ describe('Inventory', () => {
         orderMembers(".inventory_item_price", "reverse")
 
     })
-   
-  
+
+
     function orderMembers(selector, operation) {
         cy.get(selector).invoke("text").then(($elements) => {
             var arrayOfElementText = []

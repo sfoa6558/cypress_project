@@ -10,7 +10,7 @@ describe('User Login', () => {
     cy.getBySel("password").type(Cypress.env("password"))
     cy.getBySel("login-button").click()
     cy.contains("Username and password do not match any user in this service")
-    
+
   });
 
 
